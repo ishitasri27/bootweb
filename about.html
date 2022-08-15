@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap5 demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">Ishita Srivastava</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">Galley</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main_heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">About Us</h1>
+            <hr class="w-25 mx-auto" />
+
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                        <figure>
+                            <img src="images/beach_cyclist_bicycle_336607_1280x720.jpg" alt="about images"
+                                class="img-fluid about_img" />
+                        </figure>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex 
+                        justify-content-center align-items-start flex-column">
+                        <h1>Classics</h1>
+                        <p>"What is meant by classics in literature?
+                            A classic is a book which is well-known and considered to be of a high literary standard. You can refer to such books generally as the classics.
+                            Classics or classical studies is the study of classical antiquity.
+                             In the Western world, classics traditionally refers to the study of Classical Greek and Roman literature and their related original languages, Ancient Greek and Latin. "</p>
+                        <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                            data-bs-placement="right" title="Who am I?">Check More</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+        <section class="container mx-auto">
+        <div class="row">
+            <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                <a class="navbar-brand" href="#">Classics</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Pride and Prejudice</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Jane Eyre</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Wuthering Heights</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">The Great Gatsby</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Little Women</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0" style="height:300px; overflow-y:scroll">
+                <h4 id="scrollspyHeading1">Pride and Prejudice</h4>
+                <p>"Pride and Prejudice is an 1813 novel of manners by Jane Austen. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness."</p>
+                <h4 id="scrollspyHeading2">Jane Eyre</h4>
+                <p>"Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name "Currer Bell" on 16 October 1847 by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York." </p>
+                <h4 id="scrollspyHeading3">Wuthering Heights</h4>
+                <p>"Wuthering Heights is an 1847 novel by Emily Brontë, initially published under her pen name Ellis Bell. It concerns two families of the landed gentry living on the West Yorkshire moors, the Earnshaws and the Lintons, and their turbulent relationships with Earnshaw's foster son, Heathcliff." </p>
+                <h4 id="scrollspyHeading4">The Great Gatsby</h4>
+                <p>"The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan. "</p>
+                <h4 id="scrollspyHeading5">Little Women</h4>
+                <p>"Little Women is a coming-of-age novel written by American novelist Louisa May Alcott. Originally published in two volumes in 1868 and 1869, Alcott wrote the book over several months at the request of her publisher. "</p>
+              </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-center text-white">
+        <p>&#169copyright IS</p>
+        </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>    
+    </body>
+    </html>
+            

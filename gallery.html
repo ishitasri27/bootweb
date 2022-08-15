@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap5 demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">Ishita Srivastava</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="gallery.html">Galley</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main_heading my-5 pt-5 ">
+        <div class="text-center">
+            <h1 class="display-4">Gallery</h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small>11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This is a toast message.
+                </div>
+              </div>
+        </div>
+    </div>
+        <div class="container services">
+            <div class="row gy-2 my-5">
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/night_city_street_car_113387_300x168.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/night_city_street_car_113387_300x168.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/night_city_street_car_113387_300x168.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/building.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/building.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+                    <figure>
+                        <image src="images/building.jpg" alt="gallery" class="img-fluid" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-secondary text-center text-white">
+        <p>&#169copyright IS</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        const toastElList = [].slice.call(document.querySelectorAll('.toast'))
+const toastList =toastElList.map(function(toastEl){
+return new bootstrap.Toast(toastEl)
+})
+toastlist[0].show();
+    </script>
+</body>
+
+</html>
+        
